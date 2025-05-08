@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+.card {
+  margin-top: 5vw;
+  box-shadow: 5px 5px 5px 5px #0000003b;
+  padding-bottom: 1.4vw;
+  color: #83c9b9;
+  font-weight: bold;
+}
+
+.card h3 {
+  font-size: 1vw;
+  margin: 1vw;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .card h3 {
+    font-size: 2vw;
+  }
+
+  .image-card {
+    width: 30vw;
+    height: 30vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card h3 {
+    font-size: 5vw;
+  }
+
+  .card-container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .card {
+    margin: 10vw;
+    padding-bottom: 5vw;
+  }
+
+  .text-header {
+    font-size: 5vw;
+    padding: 1vw;
+  }
+
+  .recipes-detail {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .category-recipes {
+    font-size: 4.7vw;
+  }
+}
