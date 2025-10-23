@@ -1,7 +1,7 @@
 import axios from "axios";
 import Image from "next/image";
 import Link from "next/link";
-import "../../styles/globals.css";
+
 
 export async function getServerSideProps({ params }) {
   const { id } = params;
