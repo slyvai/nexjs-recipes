@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import "../styles/globals.css";
+
 function RecipeCard({ recipe }) {
   return (
     <>
